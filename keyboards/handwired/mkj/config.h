@@ -7,14 +7,14 @@
 #define PRODUCT_ID      0xabab
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    Matt Johnston matt@ucc.asn.au
-#define PRODUCT         59KeyGrid#1
+#define PRODUCT         60KeyGrid#1
 
 /* key matrix size */
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 12
 
-/* XXX fixme */
-#define MATRIX_ROW_PINS { B8, A0, A1, A2, A3 }
+#define MATRIX_ROW_PINS { A2, A1, A0, B8, A13 }
+// #define MATRIX_COL_PINS { B0, B1, B2, B3, B4, B5, B6, B7, B9, B15, B14, B13 }
 #define MATRIX_COL_PINS { B13, B14, B15, B9, B7, B6, B5, B4, B3, B2, B1, B0 }
 
 #define DIODE_DIRECTION COL2ROW
