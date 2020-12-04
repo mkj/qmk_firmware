@@ -22,4 +22,10 @@
 #define USB_MAX_POWER_CONSUMPTION 100
 
 /* Should be enough right? */
-#define DEBOUNCE 2
+#define DEBOUNCE 5
+
+// Not sure if this works anyway since it's a 12mbit/sec device?
+#define USB_POLLING_INTERVAL_MS 1
+
+// it's 4khz
+//#define DEBUG_MATRIX_SCAN_RATE
