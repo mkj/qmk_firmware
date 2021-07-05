@@ -9,6 +9,6 @@ EXTRAKEY_ENABLE = yes
 CONSOLE_ENABLE = yes
 
 # it's a fast mcu, may as well do per-key (pk)
-# something seems wrong if there's enough noise for errant keystrokes, so eager should be fine.
-DEBOUNCE_TYPE = sym_eager_pk
+# need to use defer rather than eager since the bathroom light switch induces noise
+DEBOUNCE_TYPE = sym_defer_pk
 
