@@ -22,7 +22,9 @@
 #define USB_MAX_POWER_CONSUMPTION 100
 
 // Just needs to be enough to avoid light switch
-#define DEBOUNCE 1
+// #define DEBOUNCE 1
+// ... but enough to avoid double keys too
+#define DEBOUNCE 5
 
 // Not sure if this works anyway since it's a 12mbit/sec device?
 #define USB_POLLING_INTERVAL_MS 1
